@@ -1,0 +1,158 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maindiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  }
+  .head1{
+    width: 20%;
+    height: 100vh;
+    
+  }
+  .head2{
+    width: 80%;
+    height: 100vh;
+    height: 68px;
+    box-shadow: 1px 1px ;
+  }
+  .menu {
+    padding: 20px;
+  height: 70px;
+display: flex;
+justify-content: space-between;
+  
+  }
+.menu{
+  padding: 20px;
+}
+
+  
+  .admin{
+    height: 20px;
+    display: flex;
+  } 
+
+   select{
+    border-style: none;
+    font-weight: 600;
+
+    
+  }
+
+ .image{
+  background: transparent linear-gradient(255deg, #A975BF 0%, #404AC3 97%, #373C7C 100%) 0% 0% no-repeat padding-box;
+   border-start-end-radius:35px ;
+   height: 70px;
+   width: 260px;
+
+}
+.image img {
+  height: 50px;
+  width: 110px;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+.options{
+  display: flex;
+flex-direction: column;
+padding: 15px;
+}
+
+.opt1{
+  background-color: #E0E8FF;
+  height: 40px;
+  width: 240px;
+  border-radius: 5px;
+  box-shadow: 2px 0px #5B55C2;
+    }
+    
+.opt1 img{
+  mix-blend-mode: darken;
+  aspect-ratio: 4/3;
+  width: 20px;
+}
+.opt{
+height: 40px;
+    width: 240px;
+    font-family: "Inter";
+  }
+.options a{
+  text-decoration: none;
+  color: #232E50;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  padding:13px ;
+  line-height: 3;
+}
+.b2{
+  background-color: aquamarine;
+  width: 220px;
+  
+}
+.mainform{
+  height: 800px;
+  width: 100%;
+  display: flex;
+  background-color: #F1F2F6;
+  padding-top: 20px;
+padding-left: 30px;
+
+  
+}
+
+.leftform{
+  width: 30%;
+  height: 600px;
+  padding: 20px;
+  font-weight: 500;
+  background-color: #E9E4F0;
+  border-start-start-radius: 15px;
+  border-end-start-radius: 15px;
+  
+}
+.middleform{
+  width: 33%;
+  height: 600px;
+
+  padding: 45px;
+  background-color: #E9E4F0;
+  
+}
+.rightform{
+  background-color: #E9E4F0;
+  padding: 45px;
+  width: 35%;
+  height: 600px;
+  border-start-end-radius: 15px;
+  border-end-end-radius: 15px;
+}
+.btn1{
+     height: 40px;
+      width: 80px;
+      background-color: #B8BCCC;
+      border-radius: 5px;
+      border-style: none;
+      cursor: pointer;
+      color: white;
+    
+}
+.btn2{
+     height: 40px;
+      width: 80px;
+      background-color:#5B55C2;
+      border-radius: 5px;
+      border-style: none;
+      cursor: pointer;
+      color: white;
+}
+p{
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #232E50;
+}

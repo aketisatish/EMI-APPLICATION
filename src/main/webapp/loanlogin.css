@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("theme.png");
+  background-size: cover;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  
+  
+}
+.container{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+img{
+  display: flex;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+  padding-left: 50px;
+}
+header{
+  display: flex;
+  justify-content: center;
+  padding:20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Assistant', sans-serif;
+
+}
+.input-field{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.inputs{
+  height: 38px;
+  width: 300px;
+  border: none;
+  outline: none;
+  padding: 0 0 0 35px;
+  background-color: transparent;
+  border-style: ridge;
+  color: white;
+  padding: 0 0 0 45px;
+  
+}
+i{
+  position: relative;
+  top: -25px;
+  left: 10px;
+}
+.btn{
+  padding:10px;
+  height: 38px;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  }
+  ::placeholder{
+    color: whitesmoke;
+  }
+ .check-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ a{
+  text-decoration: none;
+  color: white;
+ }

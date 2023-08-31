@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="addnew.css">
+<script src="https://kit.fontawesome.com/7dbe0d5993.js"
+	crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Inter:wght@600;700&display=swap"
+	rel="stylesheet">
+</head>
+<body>
+	<form action="UserRegitration" method="post">
+
+		<div class="maindiv">
+
+			<!--left side-->
+			<div class="head1">
+				<div class="image">
+					<img src="signode.png" alt="">
+				</div>
+				<div class="options">
+					<div class="opt">
+						<img src="dashboard.png" alt="" height="20px" width="20px"
+							style="padding-top: 5px;"><a href="">Dashboard</a>
+					</div>
+					<div class="opt1">
+						<img src="us.png" alt="" height="20px" width="20px"
+							style="padding-top: 5px;"><a href="ViewServlet">Members</a>
+					</div>
+					<div class="opt">
+						<img src="loans.png" alt="" height="15px" width="20px"><a
+							href="" style="width: 220px;">Loans</a>
+					</div>
+					<div class="opt">
+						<img src="payroll.png" alt="" height="15px" width="20px"> <a
+							href="">Payroll Reports</a>
+					</div>
+				</div>
+			</div>
+			<div class="head2">
+				<div class="menu">
+					<i class="fa-solid fa-bars"></i>
+					<div class="admin">
+						<select>
+							<option value="logout">Satish Admin</option>
+						</select> <img src="bigil.jpg" alt="" height="50px" width="50px"
+							style="border-radius: 50%;">
+					</div>
+				</div>
+				<div class="mainform">
+					<div class="leftform">
+
+						<a href="ViewServlet"><i class="fa-solid fa-angle-left"></i></a>
+						&nbsp; <span
+							style="font-size: 20px; padding: 10px; font-family: 'inter'; color: #232E50;">+Add
+							Members </span><br> <br> &nbsp; &nbsp; &nbsp; &nbsp;
+						<p>Employee ID</p>
+						<br> <select name="employeeId"
+							style="width: 280px; height: 45px; border-radius: 3px; border-color: #FFFFFF; outline: none; border: 1px;">
+							<option>select</option>
+							<option>EMP20221</option>
+							<option>EMP20222</option>
+							<option>EMP20223</option>
+							<option>EMP20224</option>
+						</select><br> <br> &nbsp;&nbsp;&nbsp; &nbsp;
+						<p>Caste</p>
+						<br> <select name="caste"
+							style="width: 280px; height: 45px; border-radius: 3px;; outline: none; padding: 5px; border-color: #FFFFFF">
+							<option>select</option>
+							<option>BC-A</option>
+							<option>BC-B</option>
+							<option>BC-C</option>
+							<option>BC-D</option>
+						</select><br> <br> &nbsp; &nbsp; &nbsp; &nbsp;
+						<p>Date Of Joining</p>
+						<br><input type="date" name="dateOfJoining"	style="width: 280px; height: 45px; border-radius: 3px; outline: none; border-color: #FFFFFF; border: 1px;">
+					</div>
+					<div class="middleform">
+						<br> &nbsp; &nbsp; &nbsp; &nbsp;
+						<p>Employee Name</p>
+						<br> <input type="text" name="employeeName"
+							style="width: 280px; height: 45px; border-radius: 3px;; outline: none; border-color: #FFFFFF; border: 1px;"><br>
+						<br> &nbsp; &nbsp; &nbsp; &nbsp;
+						<p>Sub Caste</p>
+						<br> <select name="subCaste"
+							style="width: 280px; height: 45px; border-radius: 3px;; outline: none; padding: 5px; border-color: #FFFFFF">
+							<option>select</option>
+							<option>BC-A</option>
+							<option>BC-B</option>
+							<option>BC-C</option>
+							<option>BC-D</option>
+						</select><br> <br>
+
+					</div>
+					<div class="rightform">
+						<br> &nbsp; &nbsp; &nbsp; &nbsp;
+						<p>Employee Father Name</p>
+						<br> <input type="text" name="employeeFatherName"
+							style="width: 280px; height: 45px; border-radius: 3px; border-color: #FFFFFF; outline: none; border: 1px;"><br>
+						<br> &nbsp;&nbsp; &nbsp; &nbsp;
+						<p>Thrift Desposit</p>
+						<br> <input type="number" name="thriftDeposit"
+							style="width: 280px; height: 45px; border-radius: 3px; border-color: #FFFFFF; outline: none; border: 1px;"><br>
+						<br> <br> <br> <br> <br> &nbsp; &nbsp;
+						&nbsp; &nbsp;<input class="btn1" type="reset" value="Cancle">
+						&nbsp; &nbsp; &nbsp; &nbsp;<input class="btn2" type="submit"
+							value="Submit">
+					</div>
+
+				</div>
+	</form>
+
+</body>
+</html>

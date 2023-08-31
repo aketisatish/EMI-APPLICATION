@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/7dbe0d5993.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="addnew.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Inter:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="maindiv">
+
+    <!--left side-->
+    <div class="head1">
+      <div class="image">
+        <img src="signode.png" alt="">
+      </div>
+      <div class="options">
+        <div class="opt">
+          <img src="dashboard.png" alt="" height="20px" width="20px" style="padding-top: 5px;"><a href="">Dashboard</a>
+        </div>
+        <div class="opt"> 
+          <img src="us.png" alt="" height="20px" width="20px" style="padding-top: 5px;"><a href="ViewServlet">Members</a>
+        </div>
+        <div class="opt1">
+          <img src="loans.png" alt="" height="15px" width="20px"><a href="loans.html" style="width: 220px;">Loans</a>
+        </div>
+        <div class="opt">
+          <img src="payroll.png" alt="" height="15px" width="20px"> <a href="">Payroll Reports</a>
+         </div>
+         </div>
+    </div>
+    <div class="head2">
+      <div class="menu">
+      <i class="fa-solid fa-bars"></i>
+      <div class="admin">
+        <select>
+          <option value="logout">Satish Admin</option>
+         </select>
+         <img src="bigil.jpg" alt="" height="50px" width="50px" style="border-radius: 50%;">
+       </div>
+</div>
+    <div class="mainform">
+      <div class="leftform">
+               <a href="loans.html"><i class="fa-solid fa-angle-left"></i></a> &nbsp;   <span style="font-size: 20px;padding: 10px; font-family: 'inter'; color: #232E50;">Add New Loans </span><br> <br>
+
+       &nbsp; &nbsp; &nbsp;&nbsp; <p>Employee ID</p><br>
+        <select name=""  style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;">
+          <option >select</option>
+          <option value="20221">EMP20221</option>
+          <option value="20221">EMP20222</option>
+          <option value="20221">EMP20223</option>
+          <option value="20221">EMP20224</option>
+        </select><br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Thrift Deposit </p><br>
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Interest Rate</p><br>
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        &nbsp;  <p>Total Interest payable Deposit</p> <br>
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;">
+       
+      </div>
+      <div class="middleform">
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Employee Name</p> <br>
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+      
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Loan Amount</p><br>
+        <!-- <img src="rupee symbol.jpg" alt="" height="15px" width="15px"  style="mix-blend-mode: darken;"> -->
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+       &nbsp; &nbsp; &nbsp; &nbsp; <p>Monthly Interest </p><br>
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        
+        <p>Total payment(Principle + Interest) </p><br>
+       <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        
+      </div>
+      <div class="rightform">
+         &nbsp; &nbsp; &nbsp; &nbsp; <p>Date Of Joining </p><br>
+        <input type="date" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Loan Term </p><br>
+        <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Monthly Loan EMI</p><br> 
+        <input type="text" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; <p>Loan Schedule Start Date</p> <br>
+        <input type="date" style=" width: 280px; height: 45px;border-radius: 3px;;outline: none;border-color:#FFFFFF ;border:1px;"><br><br>
+        <br><br><br><br><br><br>
+       &nbsp; &nbsp; &nbsp; &nbsp;<input class="btn1"type="submit" value="Cancle" id="" >
+       &nbsp; &nbsp; &nbsp; &nbsp;<input class="btn2"type="submit"  value="Submit" id="">
+      </div>
+      
+    </div>
+    
+    
+</body>
+</html>
